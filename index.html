@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapGram</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">📸 SnapGram</div>
+    </div>
+
+    <div class="container">
+        <div class="feed-header">
+            <h2>Your Feed</h2>
+            <button class="create-post-btn" id="createPostBtn">+ Create New Post</button>
+        </div>
+
+        <div id="feed" class="feed">
+            <div class="empty-state">
+                <h3>No posts yet</h3>
+                <p>Share your first photo to get started!</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Create New Post</h2>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-content">
+                <form id="postForm">
+                    <div class="form-group">
+                        <label for="imageUrl">Image URL</label>
+                        <input type="url" id="imageUrl" placeholder="https://example.com/image.jpg" required>
+                        <div class="preview-container">
+                            <img id="previewImage" class="preview-image" alt="Preview">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="postBody">Caption</label>
+                        <textarea id="postBody" placeholder="Write a caption..." required></textarea>
+                    </div>
+                    <button type="submit" class="add-btn" id="addBtn">Add Post</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
