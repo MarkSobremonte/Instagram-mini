@@ -5,8 +5,8 @@ let posts = [
         body: "Ganda parang si paul #sunset #nature",
         likes: 42,
         comments: [
-            { name: "charles", date: "2024-01-15", text: "21 pesos meal" },
-            { name: "charles", date: "2024-01-15", text: "hakdog" }
+            { name: "charles", date: "2025-07-31", text: "21 pesos meal" },
+            { name: "charles", date: "2025-7-31", text: "hakdog" }
         ]
     },
     {
@@ -15,7 +15,7 @@ let posts = [
         body: "sarap",
         likes: 28,
         comments: [
-            { name: "paul laurence", date: "2024-01-14", text: "nigg" }
+            { name: "paul laurence", date: "2025-07-31", text: "nigg" }
         ]
     },
     {
@@ -24,8 +24,8 @@ let posts = [
         body: "lost alone nigg",
         likes: 67,
         comments: [
-            { name: "Mark", date: "2024-01-13", text: "ha?????" },
-            { name: "shashagurl", date: "2024-01-13", text: "haaaa??!?!?" }
+            { name: "Mark", date: "2025-01-31", text: "ha?????" },
+            { name: "shashagurl", date: "2025-07-31", text: "haaaa??!?!?" }
         ]
     }
 ];
